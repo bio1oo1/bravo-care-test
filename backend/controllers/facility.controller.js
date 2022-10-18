@@ -24,7 +24,6 @@ const getAll = async function () {
  * Get the name of each facility and the name of the nurse that has been
  * hired for the most number of shifts at each of those facilities.
  * Order the results by the facility_name in ascending order
- * @param facilityId
  * @returns
  */
 const getMostHiredNurseList = async function () {
