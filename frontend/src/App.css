@@ -1,0 +1,35 @@
+.list {
+  text-align: left;
+  max-width: 750px;
+  margin: auto;
+}
+
+.submit-form {
+  max-width: 300px;
+  margin: auto;
+}
+
+.edit-form {
+  max-width: 300px;
+  margin: auto;
+}
+
+iframe {
+  display: none;
+}
+
+.nurse-item {
+  display: table;
+  height: 100px;
+  width: 100%;
+  text-align: center;
+  border: 2px solid #222222;
+  border-radius: 10px;
+}
+
+.nurse-item span {
+  display: table-cell;
+  vertical-align: middle;
+  color: #222222;
+  font-size: 30px;
+}
