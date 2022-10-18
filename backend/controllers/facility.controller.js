@@ -8,7 +8,6 @@ const sequelize = require('../models/sequelize');
 const getAll = async function () {
   try {
     const [result] = await sequelize.query('SELECT * FROM facilities ORDER BY facility_id ASC');
-    console.log(result);
     return result;
   } catch (e) {
     console.log(e);

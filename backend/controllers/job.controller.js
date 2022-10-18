@@ -23,7 +23,6 @@ const getRemainingSpots = async function () {
       ORDER BY j.job_id
     `;
     const [result] = await sequelize.query(query);
-    console.log(result);
     return result;
   } catch (e) {
     console.log(e);

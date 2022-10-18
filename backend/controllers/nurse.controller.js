@@ -37,7 +37,6 @@ const getPossibleJobCount = async function () {
       ORDER BY nurse_id
     `;
     const [result] = await sequelize.query(query);
-    console.log(result);
     return result;
   } catch (e) {
     console.log(e);
